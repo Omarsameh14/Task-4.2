@@ -7,7 +7,11 @@
 .photo .category-caption{background:#ffffffd6;padding:3px 6px;border-radius:5px}
 .photo:has(.listing-img){background:#edeaf0}
 .detail-visual{overflow:hidden;position:relative;background:#f3f1f6}
-.detail-visual .detail-img{display:block;width:100%;height:100%;object-fit:cover}
+.detail-visual .detail-img{display:block;width:100%;height:100%;object-fit:cover;object-position:center 55%}
+.listing-tabs{display:flex;gap:4px;margin-top:18px;padding:4px;width:max-content;background:#f0edf5;border-radius:10px}
+.listing-tabs button{border:0;background:transparent;color:#71687e;border-radius:7px;padding:9px 14px;font-size:12px;font-weight:700}
+.listing-tabs button.on{background:#fff;color:#65489a;box-shadow:0 2px 8px #46354b12}
+.close{z-index:20;box-shadow:0 4px 14px #251b3c26}
 .detail-thumbs{display:flex;gap:8px;margin:-12px 0 19px;overflow-x:auto;padding:1px 0 5px}
 .detail-thumbs .thumb{width:67px;height:51px;border:2px solid #e1ddec;background:#f4f1fb;border-radius:9px;overflow:hidden;padding:0;flex-shrink:0;display:grid;place-items:center}
 .detail-thumbs .thumb.active{border-color:#7956c3}
